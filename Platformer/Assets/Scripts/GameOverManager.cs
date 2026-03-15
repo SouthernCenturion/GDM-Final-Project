@@ -8,12 +8,12 @@ public class GameOverManager : MonoBehaviour
 
     void Start()
     {
-        int finalScore = PlayerPrefs.GetInt("FinalScore", 0);
-        scoreText.text = "Final Score: " + finalScore;
+        scoreText.text = "Final Score: " + GameManager.Instance.score;
     }
 
     public void TryAgain()
     {
+        GameManager.Instance.ResetGame();
         SceneManager.LoadScene(2);
     }
 }
