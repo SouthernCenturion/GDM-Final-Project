@@ -1624,6 +1624,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8533380504575269708, guid: 11ba80d05aaedaa43a706ea263fbcd46, type: 3}
   m_PrefabInstance: {fileID: 188894645}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1984247590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1984247592}
+  - component: {fileID: 1984247591}
+  m_Layer: 0
+  m_Name: CoinPoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1984247591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984247590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee4a878db6bd55e4f87dc14d4c6b1aac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CoinPoolManager
+  coinPrefab: {fileID: 4089795850425555199, guid: 46d9ec7546c5a5b4cb8454689af6912e, type: 3}
+--- !u!4 &1984247592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1984247590}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 27.01811, y: 5.23869, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2009400729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2340,3 +2385,4 @@ SceneRoots:
   - {fileID: 803648496}
   - {fileID: 1209343939}
   - {fileID: 1199335771}
+  - {fileID: 1984247592}
